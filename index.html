@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/logica.js"></script>
+</head>
+<body>    
+    <ul id="lastScores"></ul>
+    <div id="gameOverScreen" style="display:none;">
+        <p id="gameOverScore">Pontuação: 0</p>
+        <input type="text" id="playerName" placeholder="Insira o seu nome:" />
+        <button id="submitScore">Guardar Pontuação</button>
+        <br>
+        <p>Três ultimas partidas:</p>
+        <ul id="scoresList"></ul>
+    </div>
+
+    <canvas id="snakeCanvas"></canvas>
+    <div class="score" id="score">Pontuação: 0</div>
+</body>
+</html>

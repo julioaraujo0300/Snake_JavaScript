@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    z-index: 1;
+    background-color: #f0f0f0;
+}
+
+#snakeCanvas {
+    position: relative;
+    z-index: 1;
+}
+
+#gameOverScreen {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75); 
+    z-index: 2;
+}
+
+.score{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #000;
+}
