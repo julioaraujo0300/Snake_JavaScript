@@ -1,6 +1,0 @@
-Nome: Júlio, Pontuação: 2
-Nome: Cassandra, Pontuação: 4
-Nome: João, Pontuação: 12
-Nome: Gertrudes, Pontuação: 16
-Nome: Fausto, Pontuação: 3
-Nome: Cristiano Ronaldo, Pontuação: 43
